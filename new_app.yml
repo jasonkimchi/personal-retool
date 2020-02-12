@@ -65,6 +65,138 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2020-02-12T16:51:08.689Z
             updatedAt: 2020-02-12T16:51:08.689Z
+      - table1:
+          pluginTemplate:
+            id: table1
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - sortMappedValue:
+                    ordered: []
+                - normalizedData: null
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - columnTypeSpecificExtras:
+                    ordered: []
+                - onRowAdded: ''
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered: []
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - showFilterButton: true
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - Title: true
+                      - Description: true
+                      - Sales: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - filterStackType: and
+                - showFetchingIndicator: true
+                - serverPaginated: false
+                - data: |-
+                    [{
+                      "id": 1,
+                      "name": "Hanson Deck",
+                      "email": "hanson@deck.com",
+                      "sales": 37
+                    }, {
+                      "id": 2,
+                      "name": "Max Conversation",
+                      "email": "Max@conversation.com",
+                      "sales": 424
+                    }, {
+                      "id": 3,
+                      "name": "Jason Response",
+                      "email": "jason@response.com",
+                      "sales": 55
+                    }, {
+                      "id": 4,
+                      "name": "Sue Shei",
+                      "email": "sueshei@example.com",
+                      "sales": 550
+                    }, {
+                      "id": 5,
+                      "name": "Eric Widget",
+                      "email": "eric@widget.org",
+                      "sales": 243
+                    }]
+                - displayedData: null
+                - actionButtons: []
+                - actionButtonSelectsRow: true
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - sortedDesc: false
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: '10'
+                - useDynamicColumnSettings: false
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - dynamicColumnSettings: null
+                - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - newRow: null
+                - columnEditable:
+                    ordered: []
+                - filters:
+                    array: []
+                - displayedDataIndices: null
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - selectedCell:
+                    object:
+                      index: null
+                      data: null
+                      columnName: null
+                - columns:
+                    - Title
+                    - Description
+                    - Sales
+                - sort: null
+                - calculatedColumns: []
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                row: 5
+                col: 4
+                height: 8
+                width: 8
+            mobilePosition2:
+              position2:
+                row: 5
+                col: 4
+                height: 8
+                width: 8
+            createdAt: 2020-02-12T16:51:11.617Z
+            updatedAt: 2020-02-12T16:51:11.617Z
   createdAt: null
   version: 2.53.68
   responsiveLayoutDisabled: false
