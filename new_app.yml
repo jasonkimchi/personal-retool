@@ -226,7 +226,7 @@ appTemplate:
                 - value: ''
                 - suffix: ''
                 - placeholder: Search here...
-                - label: Name
+                - label: Hooray
                 - currencyMajorOnly: false
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -248,7 +248,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2020-02-12T17:01:57.051Z
-            updatedAt: 2020-02-12T17:01:57.051Z
+            updatedAt: 2020-02-12T17:01:59.828Z
   createdAt: null
   version: 2.53.68
   responsiveLayoutDisabled: false
